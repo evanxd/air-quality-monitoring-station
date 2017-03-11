@@ -1,5 +1,5 @@
 # mqtt-air-quality-monitoring-station
-A MQTT-based air quality monitoring station firmware. We use [NodeMcu][node-mcu] (Arduino-like board with ESP8266 Wi-Fi chip) and [PMS 3003 air quality sensor][pms3003] here.
+A MQTT-based air quality monitoring station firmware. We use [NodeMcu][node-mcu] (Arduino-like board with ESP8266 Wi-Fi chip) and [PMS3003 air quality sensor][pms3003] here.
 
 ![Device](./images/device.jpg)
 
