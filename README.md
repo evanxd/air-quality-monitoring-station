@@ -4,8 +4,10 @@ A [MQTT][mqtt]-based air quality monitoring station firmware. We use [NodeMcu][n
 ![Device](./images/device.jpg)
 
 ## Setup
-1. Update the [SSID][ssid], [Wi-Fi password][password], and [MQTT topic][topic] (you can name it with any name you want) in the firmware, and flash the firmware with Arduino IDE. (Please ensure unplug the air quality sensor from the board when you do flashing. Because TX and RX will be used when do flashing)
-2. Check the data with a MQTT client. Go to the [HiveMQ MQTT client web page][mqtt-client] and subscribe the [topic][topic] you assigned in the firmware.
+1. Update the [SSID][ssid], [Wi-Fi password][password], and [MQTT topic][topic] (you can name it with any name you want) in the firmware, and flash the firmware with Arduino IDE.
+  - Please ensure unplug the air quality sensor from the board when you do flashing. Because TX and RX will be used when do flashing.
+2. Check the real-time air quality data with a MQTT client.
+  - Go to the [HiveMQ MQTT client web page][mqtt-client] and subscribe the [topic][topic] you assigned in the firmware.
 
 ![MQTT Client](./images/mqtt-client.png)
 
