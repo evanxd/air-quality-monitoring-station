@@ -3,5 +3,10 @@ A MQTT-based air quality monitoring station firmware. We use [NodeMcu][node-mcu]
 
 ![Device](./images/device.jpg)
 
+## Setup
+* Flash the firmware with Arduino IDE. (Please ensure unplug the air quality sensor from the board when you do flashing. Because TX and RX will be used when do flashing)
+
+
+
 [node-mcu]: http://www.nodemcu.com/index_en.html
 [pms3003]: http://aqicn.org/sensor/pms3003
