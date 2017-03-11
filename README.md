@@ -14,7 +14,7 @@ A [MQTT][mqtt]-based air quality monitoring station firmware. We use [NodeMcu][n
 [mqtt]: https://en.wikipedia.org/wiki/MQTT
 [node-mcu]: http://www.nodemcu.com/index_en.html
 [pms3003]: http://aqicn.org/sensor/pms3003
-[how-to]: #howto
+[how-to]: #how-to
 [mqtt-client]: http://www.hivemq.com/demos/websocket-client/
 [ssid]: https://github.com/evanxd/mqtt-air-quality-monitoring-station/blob/master/mqtt-air-quality-monitoring-station.ino#L4
 [password]: https://github.com/evanxd/mqtt-air-quality-monitoring-station/blob/master/mqtt-air-quality-monitoring-station.ino#L5
