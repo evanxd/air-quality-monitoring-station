@@ -28,4 +28,4 @@ Go to the [HiveMQ MQTT client web page][mqtt-client] and subscribe the [topic][t
 [topic]: https://github.com/evanxd/mqtt-air-quality-monitoring-station/blob/master/mqtt-air-quality-monitoring-station.ino#L9
 [air-quality-widget]: https://github.com/evanxd/air-quality-widget
 [air-quality-widget-demonstration-page]: http://evanxd.io/air-quality-widget
-[check-data-with-mqtt-client]: #check-data-with-mqtt--client
+[check-data-with-mqtt-client]: #check-data-with-mqtt-client
