@@ -9,11 +9,13 @@ We use [NodeMcu][node-mcu] (Arduino-like board with ESP8266 Wi-Fi chip) and [PMS
 ![Device](./images/device.jpg)
 
 ## How-to
+
+### Setup Air Quality Monitoring Station
 1. Update the [SSID][ssid], [Wi-Fi password][password], and [MQTT topic][topic] (you can name it with any name you want) in the firmware, and flash the firmware with Arduino IDE.
   - Please ensure unplug the air quality sensor from the board when you do flashing. Because TX and RX will be used when do flashing.
 2. Go to the [Air Quality Widget demonstration page][air-quality-widget-demonstration-page] to see the visualized data.
 
-## Check Data With MQTT Client
+### Check Data With MQTT Client
 Go to the [HiveMQ MQTT client web page][mqtt-client] and subscribe the [topic][topic] you assigned in the firmware.
 
 ![MQTT Client](./images/mqtt-client.png)
