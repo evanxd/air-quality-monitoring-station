@@ -27,9 +27,9 @@ Go to the [HiveMQ MQTT client web page][mqtt-client] and subscribe the [topic][t
 [pms3003]: http://aqicn.org/sensor/pms3003
 [how-to]: #how-to
 [mqtt-client]: http://www.hivemq.com/demos/websocket-client/
-[ssid]: https://github.com/evanxd/mqtt-air-quality-monitoring-station/blob/master/mqtt-air-quality-monitoring-station.ino#L4
-[password]: https://github.com/evanxd/mqtt-air-quality-monitoring-station/blob/master/mqtt-air-quality-monitoring-station.ino#L5
-[topic]: https://github.com/evanxd/mqtt-air-quality-monitoring-station/blob/master/mqtt-air-quality-monitoring-station.ino#L9
+[ssid]: https://github.com/evanxd/air-quality-monitoring-station/blob/master/mqtt-air-quality-monitoring-station.ino#L4
+[password]: https://github.com/evanxd/air-quality-monitoring-station/blob/master/mqtt-air-quality-monitoring-station.ino#L5
+[topic]: https://github.com/evanxd/air-quality-monitoring-station/blob/master/mqtt-air-quality-monitoring-station.ino#L9
 [air-quality-widget]: https://github.com/evanxd/air-quality-widget
 [air-quality-widget-demonstration-page]: http://evanxd.io/air-quality-widget
 [check-data-with-mqtt-client]: #check-data-with-mqtt-client
