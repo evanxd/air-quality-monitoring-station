@@ -1,5 +1,10 @@
-# MQTT Air Quality Monitoring Station
-A [MQTT][mqtt]-based air quality monitoring station firmware. We use [NodeMcu][node-mcu] (Arduino-like board with ESP8266 Wi-Fi chip) and [PMS3003 air quality sensor][pms3003] here. Please check the [How-to][how-to] section to learn how to setup the air quality monitoring station and check the real-time data.
+# Air Quality Monitoring Station
+A web-based air quality monitoring station firmware. You can see the visualized real-time air quality data with the [Air Quality Widget][air-quality-widget], like
+<p align="center">
+  <img src="https://raw.githubusercontent.com/evanxd/air-quality-widget/master/images/demo.gif" />
+</p>
+
+We use [NodeMcu][node-mcu] (Arduino-like board with ESP8266 Wi-Fi chip) and [PMS3003 air quality sensor][pms3003] here. Please check the [How-to][how-to] section to learn how to setup the air quality monitoring station and check the real-time data.
 
 ![Device](./images/device.jpg)
 
@@ -19,3 +24,4 @@ A [MQTT][mqtt]-based air quality monitoring station firmware. We use [NodeMcu][n
 [ssid]: https://github.com/evanxd/mqtt-air-quality-monitoring-station/blob/master/mqtt-air-quality-monitoring-station.ino#L4
 [password]: https://github.com/evanxd/mqtt-air-quality-monitoring-station/blob/master/mqtt-air-quality-monitoring-station.ino#L5
 [topic]: https://github.com/evanxd/mqtt-air-quality-monitoring-station/blob/master/mqtt-air-quality-monitoring-station.ino#L9
+[air-quality-widget]: https://github.com/evanxd/air-quality-widget
