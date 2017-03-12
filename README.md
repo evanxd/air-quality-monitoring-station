@@ -4,13 +4,13 @@ A web-based air quality monitoring station firmware. You can see the visualized 
   <img src="https://raw.githubusercontent.com/evanxd/air-quality-widget/master/images/demo.gif" />
 </p>
 
-We use [NodeMcu][node-mcu] (Arduino-like board with ESP8266 Wi-Fi chip) and [PMS3003 air quality sensor][pms3003] here. Please check the [How-to][how-to] section to learn how to setup the air quality monitoring station and check the real-time data.
+## How-to
+
+### Setup Air Quality Monitoring Station & Check Data
+We use [NodeMcu][node-mcu] (Arduino-like board with ESP8266 Wi-Fi chip) and [PMS3003 air quality sensor][pms3003] here. Please have them before you setup.
 
 ![Device](./images/device.jpg)
 
-## How-to
-
-###Setup Air Quality Monitoring Station & Check Data.
 1. Update the [SSID][ssid], [Wi-Fi password][password], and [MQTT topic][topic] (you can name it with any name you want) in the firmware, and flash the firmware with Arduino IDE.
   - Please ensure unplug the air quality sensor from the board when you do flashing. Because TX and RX will be used when do flashing.
 2. Go to the [Air Quality Widget demonstration page][air-quality-widget-demonstration-page] to see the visualized data.
